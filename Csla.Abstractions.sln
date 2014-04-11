@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csla.Abstractions.BusinessObjects", "Csla.Abstractions.BusinessObjects\Csla.Abstractions.BusinessObjects.csproj", "{B565BCC5-7E07-4B58-9703-A19962BD22CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{18A6DBD8-4FF8-45CC-B8F8-2F79F96E9E8C}"
+	ProjectSection(SolutionItems) = preProject
+		Assets\ParameterNullCheck.snippet = Assets\ParameterNullCheck.snippet
+		Assets\PIRCslaProperty.snippet = Assets\PIRCslaProperty.snippet
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csla.Abstractions.Client", "Csla.Abstractions.Client\Csla.Abstractions.Client.csproj", "{A75F63AC-046D-4F75-9A4C-E048862CE14A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csla.Abstractions.BusinessObjects.Tests", "Csla.Abstractions.BusinessObjects.Tests\Csla.Abstractions.BusinessObjects.Tests.csproj", "{BC1387AE-5C1B-40FB-BD5D-B89EBA346D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csla.Abstractions.UI", "Csla.Abstractions.UI\Csla.Abstractions.UI.csproj", "{E8DF8488-DCBD-483C-BEBB-5D79866DB49D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csla.Abstractions.UI.Tests", "Csla.Abstractions.UI.Tests\Csla.Abstractions.UI.Tests.csproj", "{745AC3BA-EEE3-4828-8C5C-737B82CA300B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B565BCC5-7E07-4B58-9703-A19962BD22CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B565BCC5-7E07-4B58-9703-A19962BD22CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B565BCC5-7E07-4B58-9703-A19962BD22CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B565BCC5-7E07-4B58-9703-A19962BD22CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A75F63AC-046D-4F75-9A4C-E048862CE14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75F63AC-046D-4F75-9A4C-E048862CE14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75F63AC-046D-4F75-9A4C-E048862CE14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75F63AC-046D-4F75-9A4C-E048862CE14A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1387AE-5C1B-40FB-BD5D-B89EBA346D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1387AE-5C1B-40FB-BD5D-B89EBA346D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1387AE-5C1B-40FB-BD5D-B89EBA346D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1387AE-5C1B-40FB-BD5D-B89EBA346D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8DF8488-DCBD-483C-BEBB-5D79866DB49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8DF8488-DCBD-483C-BEBB-5D79866DB49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8DF8488-DCBD-483C-BEBB-5D79866DB49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8DF8488-DCBD-483C-BEBB-5D79866DB49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{745AC3BA-EEE3-4828-8C5C-737B82CA300B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745AC3BA-EEE3-4828-8C5C-737B82CA300B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745AC3BA-EEE3-4828-8C5C-737B82CA300B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745AC3BA-EEE3-4828-8C5C-737B82CA300B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
